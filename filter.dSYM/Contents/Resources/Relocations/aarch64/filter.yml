@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     filter
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035BC, symSize: 0x4F8 }
+  - { offsetInCU: 0x3A, offset: 0x3A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035BC, symSize: 0x4F8 }
+  - { offsetInCU: 0x1E, offset: 0x51B, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100003AFC, symSize: 0x2BC }
+  - { offsetInCU: 0x2B, offset: 0x528, size: 0x8, addend: 0x0, symName: _grayscale, symObjAddr: 0x0, symBinAddr: 0x100003AFC, symSize: 0x2BC }
+  - { offsetInCU: 0x105, offset: 0x602, size: 0x8, addend: 0x0, symName: _sepia, symObjAddr: 0x2BC, symBinAddr: 0x100003DB8, symSize: 0x18 }
+  - { offsetInCU: 0x145, offset: 0x642, size: 0x8, addend: 0x0, symName: _reflect, symObjAddr: 0x2D4, symBinAddr: 0x100003DD0, symSize: 0x18 }
+  - { offsetInCU: 0x185, offset: 0x682, size: 0x8, addend: 0x0, symName: _blur, symObjAddr: 0x2EC, symBinAddr: 0x100003DE8, symSize: 0x18 }
+...
